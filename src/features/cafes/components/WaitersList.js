@@ -27,7 +27,7 @@ export const WaitersList = ({waiters, loading, error, onCreateWaiter, disabled})
           </List>
         )
       }
-      {!disabled && <Button color="green" onClick={onCreateWaiter}>Добавит официанта</Button>}
+      {!disabled && <Button color="green" onClick={onCreateWaiter}>Добавить официанта</Button>}
     </div>
   );
 };
