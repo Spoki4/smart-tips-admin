@@ -2,7 +2,7 @@ import history from "./utils/history";
 
 export class BaseApi {
   static URL = process.env.NODE_ENV === 'production'
-    ? ''
+    ? 'https://https://smart-tips-backend.herokuapp.com'
     : 'http://192.168.99.100:3000';
 
   static post(url, params) {
