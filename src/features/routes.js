@@ -12,7 +12,7 @@ export default () => (
     <PublicRoute path="/" exact render={(props) => {
       const token = localStorage.getItem("token");
       if (token && isTokenValid(token))
-        return <Redirect to="/"/>;
+        return <Redirect to="/cafes"/>;
 
         return <LoginRoutes {...props}/>
     }} />
